@@ -14,14 +14,7 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCeopjaQfCJtCGNtcGmPBK77JWr0j4Bn4g",
-  authDomain: "mealstogo-c41e9.firebaseapp.com",
-  projectId: "mealstogo-c41e9",
-  storageBucket: "mealstogo-c41e9.appspot.com",
-  messagingSenderId: "104464023824",
-  appId: "1:104464023824:web:dd72e4a1cdc6e19cb06595",
-};
+
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
