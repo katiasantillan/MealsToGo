@@ -15,7 +15,6 @@ import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 
-
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
