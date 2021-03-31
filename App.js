@@ -15,6 +15,7 @@ import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 
+
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
@@ -26,7 +27,7 @@ export default function App() {
       firebase;
       firebase
         .auth()
-        .signInWithEmailAndPassword("katia@gmail.com", "20dejunio")
+        .signInWithEmailAndPassword("katia@gmail.com", "20")
         .then((user) => {
           setIsAuthenticated(true);
         })
